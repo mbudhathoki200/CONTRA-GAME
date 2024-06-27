@@ -18,7 +18,7 @@ This project is a Contra-inspired 2D platformer game, developed using TypeScript
 
    ```sh
    git clone https://github.com/yourusername/contra-game.git
-   cd CONTRA
+   cd CONTRA-GAME
    ```
 
 2. Install dependencies:

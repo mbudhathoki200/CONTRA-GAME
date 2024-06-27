@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contra</title>
+  </head>
+  <body>
+    <!-- START SCREEN -->
+    <section class="start_screeen">
+      <img
+        src="./src/assets/images/Contra-title-screen.jpg"
+        alt="titleScreen"
+      />
+      <button class="start-btn">Start</button>
+    </section>
+
+    <!-- GAME SCREEN -->
+
+    <section class="game_screen">
+      <canvas id="canvas"></canvas>
+      <div class="instructions">
+        <p>Move-Arrow keys</p>
+        <p>Fire-Z</p>
+        <p>Jump-X</p>
+        <p>Prone-Arrow Down</p>
+      </div>
+    </section>
+
+    <!-- GAME OVER SCREEN -->
+    <section class="game_over_screen">
+      <img src="./src/assets/images/Contra-title-screen.jpg" alt="overScreen" />
+      <div class="scores">
+        <p class="score">Your Score :0</p>
+        <p class="high_score">High Score :0</p>
+      </div>
+      <button class="restart-btn">Restart</button>
+    </section>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
